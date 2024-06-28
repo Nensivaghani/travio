@@ -2547,7 +2547,14 @@ header .sticky .navbar {
     background: #000;
     border-radius: 10px;
 }
-
+.gallery-main .photo-gallery .img {
+	position: relative;
+	margin: 0 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
+}
 .photo-gallery .img:hover img {
     opacity: 0.3;
 }
