@@ -3479,20 +3479,20 @@ header .sticky .navbar {
 
 
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs-top>.ant-tabs-nav::before {
+.list-grid-main .ant-tabs-top>.ant-tabs-nav::before {
     border: none;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-ink-bar {
+.list-grid-main .ant-tabs .ant-tabs-ink-bar {
     display: none;
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+.list-grid-main .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
     justify-content: end;
     margin-bottom: calc(40px - 16px);
 }
 
-.list-grid-main :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab-btn {
+.list-grid-main .ant-tabs .ant-tabs-tab-btn {
     position: relative;
     display: inline-block;
     width: 50px;
