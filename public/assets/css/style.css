@@ -3131,7 +3131,13 @@ header .sticky .navbar {
     padding: 16px 0px 14px 24px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.process-sidebar .content-box ul li>.icon {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	transform: translate(0%, -50%);
+	color: #ff7c5b;
+}
 .process-sidebar .content-box ul li:last-child {
     border-bottom: none;
 }
